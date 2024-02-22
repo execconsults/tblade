@@ -1,0 +1,170 @@
+body{
+transition: 1s;
+--white-txt:#1a202e;
+--main-bg: #1a202e;
+--search-bg:#fff;
+--calender-dark:#878895;
+--calender-bg:##e0e0e0;
+--gray-white: rgb(83, 83, 83);
+--main-color: rgb(234 88 12);
+}
+body.dark{
+transition: 1s;
+--main-bg: #fff;
+--calender-bg:#272424f1;
+--calender-dark:#e6e6e6;
+--white-txt:#fff;
+--search-bg:#374151;
+background-color: #1a202e;
+--gray-white:#fff
+
+}
+
+.sidenav{
+    width: 15em;
+    height: 100vh;
+    transition: 1s;
+    position: fixed;
+}
+.content{
+    color: var(--white-txt);
+    margin-left: 15.5rem;
+}
+.text-mode{
+    color: var(--main-bg);
+    text-decoration: none;
+    overflow-y: scroll;
+}
+
+.text-mode.active{
+    background-color: var(--main-color);
+    color: white;
+}
+.nav-a{
+    color: var(--gray-white);
+    border: none;
+}
+.nav-a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.logo-dark{
+    display: none;
+}
+.details{
+    text-align: start;
+}
+.user-card{
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+.none{
+    display: none;
+}
+#SvgjsG1016{
+    fill: var(--white-txt);
+}
+.none-class{
+    display: flex;
+    
+}
+.none-class.none{
+    display: none;
+}
+.tab-left{
+    width: 4.5em;
+}
+
+.logo-main{
+    transform: scale(0.7);
+    margin-right: 8em;
+}
+.logo-left{
+    margin-right: -1em;
+}
+.content.left{
+    margin-left: 5em;
+    transition: 1s;
+}
+.searchbar{
+    color: var(--white-txt);
+    background-color: var(--search-bg);
+}
+
+@media only screen and (max-width: 1000px) {
+    .col-4{
+        width: 100%;
+    }
+    .col-8{
+        width: 100%;
+    }
+    .upcoming{
+        width: 100%;
+    }
+    .col-3{
+        width: 100%;
+    }
+    .col-9{
+        width: 100%;
+    }
+}
+
+.class-card{
+    max-width: 18em;
+}
+
+
+
+
+.window-overlay {
+    display: flex;
+    align-items: flex-start;
+    background-color: var(--ds-blanket,#000000a3);
+    height: 100%;
+    justify-content: center;
+    left: 0;
+    overflow-y: auto;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 20;
+}
+.window{
+    background-color: var(--search-bg);
+    border-radius: 2px;
+    margin: 48px 0 80px;
+    overflow: hidden;
+    position: relative;
+    max-height: 95%;
+    /* overflow-y: scroll; */
+    width: 100%;
+    margin-left: 15%;
+    margin-right: 15%;
+    z-index: 25;
+}
+.none{
+    display: none;
+}
+.cardslist{
+    max-height: 36em;
+    overflow-y: scroll;
+}
+.gpaChart{
+    width: 374px;
+    display: block;
+    height: 194px;
+}
+.recent-activity{
+    max-height: 21em;
+    overflow-y: scroll;
+}
+.activities{
+    max-height: 18em;
+    overflow-y: scroll;
+}
+
+
+.pt5{
+    margin-top: 15em;
+}
