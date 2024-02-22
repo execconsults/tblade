@@ -1,126 +1,237 @@
-<div class="absolute left-2/4 z-[999] my-4 flex w-full max-w-screen-2xl -translate-x-2/4 flex-wrap items-center px-4 lg:fixed undefined">
-    <nav class="block w-full max-w-screen-2xl rounded-xl px-8 backdrop-saturate-200 backdrop-blur-2xl bg-opacity-70 border border-white/80 bg-white text-white py-4 pl-6 pr-2 lg:py-2.5 shadow shadow-blue-gray-500/10">
-        <div class="flex w-full items-center !justify-between text-[#1A237E] undefined">
-            <a class="py-2.375 text-size-sm mr-4 whitespace-nowrap font-bold text-inherit lg:ml-0" href="/"><img style="width: 2em" class="h-10 w-16" src="/imgs/logo.png" alt="" srcset=""></a><button class="relative align-middle select-none font-sans font-medium text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none max-w-[40px] max-h-[40px] rounded-lg text-xs ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden" type="button">
-                <span class="absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="2">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"></path>
-                    </svg></span>
-            </button>
-            <div class="lg:base-auto hidden flex-grow basis-full items-center overflow-hidden lg:flex lg-max:max-h-0">
-                <div class="flex  w-full flex-col lg:flex-row xl:ml-40">
-                    <ul class="mb-0 flex list-none flex-col gap-2 pl-0 text-inherit transition-all lg:ml-auto lg:flex-row lg:gap-4">
-                        <li>
-                            <a class="flex navlink  items-center px-1 py-2 font-normal transition-all duration-250 text-size-sm text-current font-light lg:px-2 cursor-pointer active border border-white rounded-md    bg-blue-600 border-white text-white" href="/">
-                                <!-- <i class="bi mb-1.5 bi-house-door-fill mr-.5 h-[20px] w-[20px] opacity-85"></i> -->
-                                Home</a>
-                        </li>
-                        <li>
-                            <a class="flex navlink  items-center px-1 py-2 font-normal transition-all duration-250 text-size-sm text-current font-light lg:px-2 cursor-pointer" href="/">
-                                <!-- <i class="bi mb-1.5 bi-house-door-fill mr-.5 h-[20px] w-[20px] opacity-85"></i> -->
-                                Pricing</a>
-                        </li>
-                        <li>
-                            <a class="flex navlink  items-center px-1 py-2 font-normal transition-all duration-250 text-size-sm text-current font-light lg:px-2 cursor-pointer" href="/">
-                                <!-- <i class="bi mb-1.5 bi-house-door-fill mr-.5 h-[20px] w-[20px] opacity-85"></i> -->
-                                Creation </a>
-                        </li>
-                        <li>
-                            <a class="flex navlink  items-center px-1 py-2 font-normal transition-all duration-250 text-size-sm text-current font-light lg:px-2 cursor-pointer" href="/">
-                                <!-- <i class="bi mb-1.5 bi-house-door-fill mr-.5 h-[20px] w-[20px] opacity-85"></i> -->
-                                Business </a>
-                        </li>
-                        <li>
-                            <a class="flex navlink  items-center px-1 py-2 font-normal transition-all duration-250 text-size-sm text-current font-light lg:px-2 cursor-pointer" href="/">
-                                <!-- <i class="bi mb-1.5 bi-house-door-fill mr-.5 h-[20px] w-[20px] opacity-85"></i> -->
-                                Support </a>
-                        </li>
-                        <li>
-                            <a class="flex navlink  items-center px-1 py-2 font-normal transition-all duration-250 text-size-sm text-current font-light lg:px-2 cursor-pointer" href="/">
-                                <!-- <i class="bi mb-1.5 bi-house-door-fill mr-.5 h-[20px] w-[20px] opacity-85"></i> -->
-                                Resources </a>
-                        </li>
-                        <!-- <li>
-                            <a class="flex navlink items-center px-1 py-2 font-normal transition-all duration-250 text-size-sm text-current font-light lg:px-2 cursor-pointer"
-                                href="/blocks"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                    fill="currentColor" class="mr-1.5 h-[18px] w-[18px] opacity-75">
-                                    <path fill-rule="evenodd"
-                                        d="M3 6a3 3 0 013-3h2.25a3 3 0 013 3v2.25a3 3 0 01-3 3H6a3 3 0 01-3-3V6zm9.75 0a3 3 0 013-3H18a3 3 0 013 3v2.25a3 3 0 01-3 3h-2.25a3 3 0 01-3-3V6zM3 15.75a3 3 0 013-3h2.25a3 3 0 013 3V18a3 3 0 01-3 3H6a3 3 0 01-3-3v-2.25zm9.75 0a3 3 0 013-3H18a3 3 0 013 3V18a3 3 0 01-3 3h-2.25a3 3 0 01-3-3v-2.25z"
-                                        clip-rule="evenodd"></path>
-                                </svg>Activity</a>
-                        </li> -->
-                        <!-- <li>
-                            <a class="flex navlink items-center px-1 py-2 font-normal transition-all duration-250 text-size-sm text-current font-light lg:px-2 cursor-pointer"
-                                href="/blocks"> <i
-                                    class="bi mb-1.5 bi-camera-video-fill mr-.5 h-[20px] w-[20px] opacity-75"></i>
-                                Match</a>
-                        </li> -->
-                        <!-- <li>
-                            <button rel="noreferrer" id="dropdownDefaultButton" data-dropdown-toggle="dropdown" type="button" class="flex quizbutton navlink items-center px-1 py-2 font-normal transition-all duration-250 text-size-sm text-current font-light lg:px-2 cursor-pointer px-3 py-2 lg:px-3"><i class="bi bi-globe mr-2 mb-.6"></i>Discover <svg class="w-4 h-4 ml-1" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                    <path stroke-l="" inecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-                                </svg></button>
-                            <div id="dropdown" class="z-10 p-3 hidden  bg-white divide-y divide-gray-700 rounded-lg shadow w-80 " style="position: absolute; inset: 0px auto auto 0px; margin: 0px; transform: translate(733px, 61px);" data-popper-escaped="" data-popper-placement="bottom">
-                            
-                            </div>
-                        </li> -->
-                        <!-- <li>
-                            <a href="/blog" class=" apbutton flex mr-6 navlink items-center px-1 py-2 font-normal transition-all duration-250 text-size-sm text-current font-light lg:px-2 cursor-pointer px-3 py-2 lg:px-3">
-                                <i class="bi mb-1.5 bi-bookmark-star-fill mr-.5 h-[20px] w-[20px] opacity-75"></i>
+<header class="header-rows" style="">
+    <div class="header-row-wrapper">
+        <div class="uc-row-wrapper">
+            <div class="uc-row header-row" data-id="1" style="background: transparent">
+                <div id="r1" class="row-container container">
+                    <div class="row headerRow" style="">
+                        <div class="column col-sm-12" dataColumn-id="1" style="padding: 20px 0px">
+                            <div class="column-container" style="" aria-label="column"
+                                role="contentinfo">
+                                <div class="module-container only-mobile align-center ModuleNavigation first last"
+                                    aria-label="module container" role="contentinfo" id="m1">
+                                    <div class="module ModuleNavigation" dataModule-id="1">
+                                        <input type="hidden" class="standard-navigation" />
+                                        <style>
+                                            #navigation-1>.standard-view>.navigation>.page>.page-children {
+                                                background: #f1f1f1;
+                                            }
 
-                                Courses
-                            </a>
-                        </li> -->
-                    </ul>
-                    <div class="mt-4 flex flex-col border-t border-blue-gray-50 pt-4 lg:mt-0 lg:ml-auto lg:flex-row lg:border-0 lg:pt-0">
-                        <ul class="flex items-center">
-                            <li class="mt-[3px]">
-                                <a class="flex items-center px-1 py-2 font-normal transition-all duration-250 text-size-sm text-current font-light lg:px-2 cursor-pointer" href="https://discord.gg/QwqrNGwc" target="_blank" rel="noreferrer"><i class="fab fa-discord text-lg leading-none" aria-hidden="true"></i></a>
-                            </li>
-                        </ul>
-                        <a href="/login" rel="noreferrer"><button class="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg bg-gradient-to-tr from-blue-600 to-blue-400 text-white shadow-md shadow-blue-500/20 hover:shadow-lg hover:shadow-blue-500/40 active:opacity-[0.85] mt-3 mb-5 flex items-center lg:mt-0 lg:mb-0 lg:ml-4" type="button">
-                                Book now
-                            </button></a>
+                                            #navigation-1>.standard-view>.navigation>.page>.page-children>.page>ul {
+                                                background: #f1f1f1;
+                                            }
+
+                                            #navigation-1 .navigation>li.has-childes.page>ul a {
+                                                padding: 0 15px;
+                                            }
+
+                                            #navigation-1 .navigation>li.has-childes.page>ul.page-children:after {
+                                                height: 10px;
+                                            }
+
+                                            #navigation-1 ul.open-to-top::after {
+                                                position: absolute;
+                                                bottom: -10px;
+                                            }
+
+                                            #navigation-1 .page a {
+                                                color: #353535;
+                                                font-size: 13px;
+                                                font-weight: 400;
+                                                letter-spacing: 0px;
+                                                text-transform: uppercase;
+                                            }
+
+                                            #navigation-1 .page a .uci-dropdown-arrow-down svg {
+                                                fill: #353535;
+                                            }
+
+                                            #navigation-1>nav>ul>li.page:not(:last-child) {
+                                                margin-right: 50px;
+                                            }
+
+                                            #navigation-1>nav>ul>li:first-child:nth-last-child(1) {}
+
+                                            #navigation-1 li.page>a:hover {
+                                                color: #959595 !important;
+                                            }
+
+                                            #navigation-1 li.page.active>a {
+                                                color: #353535;
+                                            }
+
+                                            #navigation-1 li.page.active>a:hover {
+                                                color: #959595 !important;
+                                            }
+
+                                            #navigation-1 li.page.active>a {
+                                                color: #353535;
+                                            }
+
+                                            #navigation-1 li.page.active>a:hover {
+                                                color: #959595 !important;
+                                            }
+
+                                            #navigation-1 li.page>ul.page-children li.page a {
+                                                color: #353535;
+                                            }
+
+                                            #navigation-1 li.page>ul.page-children li.page a .uci-dropdown-arrow-down svg {
+                                                fill: #353535;
+                                            }
+
+                                            #navigation-1 li.page>ul.page-children>li.page a:hover,
+                                            #navigation-1 li.page>ul.page-children>li.page>ul.page-children>li.page a:hover {
+                                                color: #959595 !important;
+                                            }
+
+                                            #navigation-1 li.page>ul.page-children>li.page.active>a,
+                                            #navigation-1 li.page>ul.page-children>li.page>ul.page-children>li.page.active>a {
+                                                color: #353535;
+                                            }
+
+                                            #navigation-1 li.page>ul.page-children>li.page.active>a:hover,
+                                            #navigation-1 li.page>ul.page-children>li.page>ul.page-children>li.page.active>a:hover {
+                                                color: #959595 !important;
+                                            }
+
+                                            #navigation-1 .subMenu__show:before,
+                                            #navigation-1 .subMenu__horizontal-arrow-left:before,
+                                            #navigation-1 .subMenu__horizontal-arrow-right:before,
+                                            #navigation-1 li.page>ul.page-children>li.has-childes>.page-children.pagesArrows>li:first-child:before {
+                                                color: #f1f1f1;
+                                            }
+
+                                            #navigation-1 li.page>ul.page-children>li.page>a {
+                                                color: #353535;
+                                                font-size: 12px;
+                                            }
+
+                                            #navigation-1 li.page ul.page-children .page {
+                                                padding-top: 5px;
+                                                padding-bottom: 5px;
+                                            }
+
+                                            #navigation-1 li.page ul.page-children .page:last-child {
+                                                padding-bottom: 5px;
+                                            }
+
+                                            #navigation-1 li.has-childes.page>a>.uci-dropdown-arrow-down svg {
+                                                width: 7.5px;
+                                                height: 7.5px;
+                                                line-height: 9px;
+                                            }
+
+                                            #navigation-1 li.has-childes.page>.page-children.pagesArrows>.has-childes>a>.uci-dropdown-arrow-down svg {
+                                                width: 7px;
+                                                height: 7px;
+                                                line-height: 12px;
+                                            }
+
+                                            #navigation-1 li.has-childes.page>.page-children li>a,
+                                            #navigation-1 li.has-childes.page>.page-children li {
+                                                text-align: center;
+                                            }
+                                        </style>
+
+                                        <div id="navigation-1"
+                                            class="navigation-inner horizontal standard"
+                                            data-stretch-labels="">
+                                            <div class="off-canvas-button icon"
+                                                aria-label="off canvas button" role="button"
+                                                data-selector="off-canvas-1" data-attribute="right"
+                                                style="
+                  width: 25px;
+                  height: 25px;
+                  color: #000;
+                  fill: #000;
+                " tabindex="0">
+                                                <svg viewbox="0 0 100.00000762939453 75.000244140625"
+                                                    version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                    <g transform="scale(1.2716659928598795)">
+                                                        <g>
+                                                            <g>
+                                                                <path clip-rule="evenodd"
+                                                                    d="M81.602,44.102h-66.84c-3.256,0-5.898,2.64-5.898,5.898    s2.642,5.898,5.898,5.898h66.84c3.256,0,5.898-2.64,5.898-5.898S84.858,44.102,81.602,44.102z M81.602,67.693h-66.84    c-3.256,0-5.898,2.64-5.898,5.898c0,3.258,2.642,5.898,5.898,5.898h66.84c3.256,0,5.898-2.64,5.898-5.898    C87.5,70.333,84.858,67.693,81.602,67.693z M14.763,32.307h66.84c3.256,0,5.898-2.64,5.898-5.898c0-3.258-2.642-5.898-5.898-5.898    h-66.84c-3.256,0-5.898,2.64-5.898,5.898C8.865,29.667,11.507,32.307,14.763,32.307z"
+                                                                    transform="translate(-8.864001274108887,-20.511001586914062)">
+                                                                </path>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </svg>
+                                            </div>
+
+                                            <nav class="standard-view">
+                                                <ul class="navigation" style="font-family: Lato"
+                                                    itemscope
+                                                    itemtype="https://www.schema.org/SiteNavigationElement">
+                                                    <li class="page subMenu__item show center active"
+                                                        data-anchor="" itemprop="name">
+                                                        <a class="nav-item center" href="index.html"
+                                                            itemprop="url"
+                                                            data-page-type="pageBlank" data-link=""
+                                                            tabindex="0">
+                                                            Home
+                                                        </a>
+                                                        <script type="application/ld+json">
+                                                            {
+                                                                "@context": "https:\/\/schema.org",
+                                                                "@type": "BreadcrumbList",
+                                                                "itemListElement": [{
+                                                                    "@type": "ListItem",
+                                                                    "position": 1,
+                                                                    "name": "Home"
+                                                                }]
+                                                            }
+                                                        </script>
+                                                    </li>
+                                                    <li class="page subMenu__item show center"
+                                                        data-anchor="" itemprop="name">
+                                                        <a class="nav-item center" href="about.html"
+                                                            itemprop="url"
+                                                            data-page-type="pageBlank" data-link=""
+                                                            tabindex="0">
+                                                            About
+                                                        </a>
+                                                    </li>
+                                                    <li class="page subMenu__item show center"
+                                                        data-anchor="" itemprop="name">
+                                                        <a class="nav-item center"
+                                                            href="articles-1.html" itemprop="url"
+                                                            data-page-type="pageBlank" data-link=""
+                                                            tabindex="0">
+                                                            Articles
+                                                        </a>
+                                                    </li>
+                                                    <li class="page subMenu__item show center"
+                                                        data-anchor="" itemprop="name">
+                                                        <a class="nav-item center"
+                                                            href="sell-your-home.html"
+                                                            itemprop="url"
+                                                            data-page-type="pageBlank" data-link=""
+                                                            tabindex="0">
+                                                            Sell Your Home
+                                                        </a>
+                                                    </li>
+                                                    <li class="page subMenu__item show center"
+                                                        data-anchor="" itemprop="name">
+                                                        <a class="nav-item center"
+                                                            href="contact.html" itemprop="url"
+                                                            data-page-type="pageBlank" data-link=""
+                                                            tabindex="0">
+                                                            Contact
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </nav>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="block w-full basis-full overflow-hidden text-[#1A237E]" data-projection-id="96" style="height: 0px">
-            <div class="flex w-full flex-col lg:flex-row xl:ml-40">
-                <ul class="mb-0 flex list-none flex-col gap-2 pl-0 text-inherit transition-all lg:ml-auto lg:flex-row lg:gap-4">
-                    <li aria-expanded="false" aria-haspopup="menu" id=":r4l:">
-                        <span class="flex items-center px-1 py-2 font-normal transition-all duration-250 text-size-sm text-current font-light lg:px-2 cursor-pointer"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="mr-1.5 h-[18px] w-[18px] opacity-75">
-                                <path fill-rule="evenodd" d="M5.625 1.5c-1.036 0-1.875.84-1.875 1.875v17.25c0 1.035.84 1.875 1.875 1.875h12.75c1.035 0 1.875-.84 1.875-1.875V12.75A3.75 3.75 0 0016.5 9h-1.875a1.875 1.875 0 01-1.875-1.875V5.25A3.75 3.75 0 009 1.5H5.625zM7.5 15a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5h-7.5A.75.75 0 017.5 15zm.75 2.25a.75.75 0 000 1.5H12a.75.75 0 000-1.5H8.25z" clip-rule="evenodd"></path>
-                                <path d="M12.971 1.816A5.23 5.23 0 0114.25 5.25v1.875c0 .207.168.375.375.375H16.5a5.23 5.23 0 013.434 1.279 9.768 9.768 0 00-6.963-6.963z">
-                                </path>
-                            </svg><span>Docs</span></span>
-                    </li>
-                    <li>
-                        <a class="flex navlink items-center px-1 py-2 font-normal transition-all duration-250 text-size-sm text-current font-light lg:px-2 cursor-pointer" href="/blocks"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="mr-1.5 h-[18px] w-[18px] opacity-75">
-                                <path fill-rule="evenodd" d="M3 6a3 3 0 013-3h2.25a3 3 0 013 3v2.25a3 3 0 01-3 3H6a3 3 0 01-3-3V6zm9.75 0a3 3 0 013-3H18a3 3 0 013 3v2.25a3 3 0 01-3 3h-2.25a3 3 0 01-3-3V6zM3 15.75a3 3 0 013-3h2.25a3 3 0 013 3V18a3 3 0 01-3 3H6a3 3 0 01-3-3v-2.25zm9.75 0a3 3 0 013-3H18a3 3 0 013 3V18a3 3 0 01-3 3h-2.25a3 3 0 01-3-3v-2.25z" clip-rule="evenodd"></path>
-                            </svg>Blocks</a>
-                    </li>
-                    <li>
-                        <a href="https://www.creative-tim.com/services/updivision/?ref=material-tailwind" target="_blank" rel="noreferrer" class="flex items-center px-1 py-2 font-normal transition-all duration-250 text-size-sm text-current font-light lg:px-2 cursor-pointer px-3 py-2 lg:px-3"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="mr-1.5 h-[18px] w-[18px] text-inherit opacity-75">
-                                <path d="M5.566 4.657A4.505 4.505 0 016.75 4.5h10.5c.41 0 .806.055 1.183.157A3 3 0 0015.75 3h-7.5a3 3 0 00-2.684 1.657zM2.25 12a3 3 0 013-3h13.5a3 3 0 013 3v6a3 3 0 01-3 3H5.25a3 3 0 01-3-3v-6zM5.25 7.5c-.41 0-.806.055-1.184.157A3 3 0 016.75 6h10.5a3 3 0 012.683 1.657A4.505 4.505 0 0018.75 7.5H5.25z">
-                                </path>
-                            </svg>Quizzlit</a>
-                    </li>
-                </ul>
-                <div class="mt-4 flex flex-col border-t border-blue-gray-50 pt-4 lg:mt-0 lg:ml-auto lg:flex-row lg:border-0 lg:pt-0">
-                    <ul class="flex items-center">
-                      
-                        <li class="mt-[3px]">
-                            <a class="flex items-center px-1 py-2 font-normal transition-all duration-250 text-size-sm text-current font-light lg:px-2 cursor-pointer" href="https://discord.gg/QwqrNGwc" target="_blank" rel="noreferrer"><i class="fab fa-discord text-lg leading-none" aria-hidden="true"></i></a>
-                        </li>
-                    </ul>
-                    <a href="https://www.material-tailwind.com/blocks" target="_blank" rel="noreferrer"><button class="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg bg-gradient-to-tr from-blue-600 to-blue-400 text-white shadow-md shadow-blue-500/20 hover:shadow-lg hover:shadow-blue-500/40 active:opacity-[0.85] mt-3 mb-5 flex items-center lg:mt-0 lg:mb-0 lg:ml-4" type="button">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="mr-1.5 -mt-px h-[18px] w-[18px]">
-                                <path d="M10.464 8.746c.227-.18.497-.311.786-.394v2.795a2.252 2.252 0 01-.786-.393c-.394-.313-.546-.681-.546-1.004 0-.323.152-.691.546-1.004zM12.75 15.662v-2.824c.347.085.664.228.921.421.427.32.579.686.579.991 0 .305-.152.671-.579.991a2.534 2.534 0 01-.921.42z">
-                                </path>
-                                <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zM12.75 6a.75.75 0 00-1.5 0v.816a3.836 3.836 0 00-1.72.756c-.712.566-1.112 1.35-1.112 2.178 0 .829.4 1.612 1.113 2.178.502.4 1.102.647 1.719.756v2.978a2.536 2.536 0 01-.921-.421l-.879-.66a.75.75 0 00-.9 1.2l.879.66c.533.4 1.169.645 1.821.75V18a.75.75 0 001.5 0v-.81a4.124 4.124 0 001.821-.749c.745-.559 1.179-1.344 1.179-2.191 0-.847-.434-1.632-1.179-2.191a4.122 4.122 0 00-1.821-.75V8.354c.29.082.559.213.786.393l.415.33a.75.75 0 00.933-1.175l-.415-.33a3.836 3.836 0 00-1.719-.755V6z" clip-rule="evenodd"></path>
-                            </svg>Book now
-                        </button></a>
-                </div>
-            </div>
-        </div>
-    </nav>
-</div>
+    </div>
+</header>
