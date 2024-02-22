@@ -92,7 +92,7 @@ app.use(flash())
  });
 
  app.get('/',(req,res)=>{
-    res.render('view/home.ejs')
+    res.render('view/index.ejs')
  })
 
 // 404 page not found route
