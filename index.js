@@ -95,6 +95,22 @@ app.use(flash())
     res.render('view/index.ejs')
  })
 
+ app.get('/about',(req,res)=>{
+   res.render('view/about.ejs')
+})
+
+app.get('/contact',(req,res)=>{
+   res.render('view/contact.ejs')
+})
+app.get('/articles',(req,res)=>{
+   res.render('view/articles-1.ejs')
+})
+app.get('/sell-your-home',(req,res)=>{
+   res.render('view/sell-your-home.ejs')
+})
+
+
+
 // 404 page not found route
 app.all('*', (req,res,next)=>{
    next(new ExpressError('Page Not Found', 404))
