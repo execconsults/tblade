@@ -95,8 +95,17 @@ app.use(flash())
     res.render('view/index.ejs')
  })
 
+ app.get('/realtors',(req,res)=>{
+   res.render('view/index.ejs')
+})
+
+
+ 
  app.get('/about',(req,res)=>{
    res.render('view/about.ejs')
+})
+app.get('/contractors',(req,res)=>{
+   res.render('view/contractors.ejs')
 })
 
 app.get('/contact',(req,res)=>{
