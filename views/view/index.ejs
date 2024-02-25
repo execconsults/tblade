@@ -1,5 +1,29 @@
 <% layout('./layouts/boilerplate.ejs')%>
-
+<style>
+    @media only screen and (max-width: 600px) {
+        .text-white{
+            font-size: 2em;
+        }
+        .dess{
+            font-size: 0.9em;
+        }
+        #hero .hero-text {
+    max-width: 352px;
+    width: 100%;
+}
+#hero .hero-text {
+    position: absolute;
+    top: 35%;
+    margin: -75px auto 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    color: #fff;
+    width: 95%;
+    text-align: center;
+}
+}
+</style>
     <section id="hero">
         <div class="fade"></div>
         <div class="hero-text">
@@ -1754,7 +1778,7 @@
             heroDes.textContent = des
           }
       
-          setInterval(changeBackground, 2000); // Change background every 4 seconds
+          setInterval(changeBackground, 4000); // Change background every 4 seconds
         });
       </script>
       
